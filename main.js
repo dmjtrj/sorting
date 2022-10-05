@@ -1,7 +1,6 @@
 var array = [6, 2, 3, 1, 7, 4, 8, 5]
-//var startArray = array.slice(0);
 
-function DrawArray(array) {
+function DrawArray() {
     var wrapper = $(".blocks-wrapper");
     wrapper.html('');
     array.forEach(element => {
@@ -27,4 +26,4 @@ function BubbleSort(array) {
 }
 
 BubbleSort(array);
-DrawArray(array);
+DrawArray();
